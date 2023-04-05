@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@100;700;800&display=swap" rel="stylesheet">
+    <!--Owl carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="https://www.flaticon.com/free-icons/architecture-and-city" type="image/x-icon">
+    <link rel="icon" href="data:;base64,=">
+    <!--Custom css-->
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <title>TrangLand</title>
+
+</head>
+<body>
+    <div class="container-xl bg-white p-0">
+        <!------- Navigation Bar ------->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-md navbar-light py-0 px-4">
+                <div class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img src="../assets/img/icon-deal.png" alt="" class="img-fluid" style="width: 30px; height: 30px;">
+                    </div>
+                    <h1 style="color: var(--secondary-color);">ThienTrang</h1>
+                </div>
+                <!--button for responsive-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <!--menu-->
+                        <p class="btn nav-link active">Home</p>
+                        <p class="btn nav-link">About Us</p>
+                        <p class="btn nav-link">Property</p>
+                        <p class="btn nav-link">Pages</p>
+                        <p class="btn nav-link">Contact</p>
+                        <p class="btn btn-dark nav-link px-3">Add Property</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!------- Header Section ------->
+        <div class="container-fluid header bg-white p-0">
+            <div class="row flex-column-reverse flex-md-row align-items-center g-0">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4">
+                        Find A <span class="text-primary">Perfect Home</span>To Live With Your
+                    </h1>
+                    <p class="animated fadeIn mb-4 pb-2">Tập trung lo học đi, ráng ra trường rồi đi làm. Đừng có crush riếc hay bia bọt nữa</p>
+                    <!--button-->
+                    <button class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</button>
+                </div>
+                <!--Own carousel-->
+                <div class="col-md-6 animated fadeIn">
+                    <div class="owl-carousel header-carousel">
+                        <!--List items-->
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="../assets/img/carousel-1.jpg" alt="">
+                        </div>
+                        <div class="owl-carousel-item"> 
+                            <img class="img-fluid" src="../assets/img/carousel-2.jpg" alt="">
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------- Search Start ------->
+        <div class="container-fluid mb-5 wow fadeIn" style="padding: 35px; background: var(--fourth-color);">
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-4">
+                                <!--input-->
+                                <input type="text" class="form-control border-0 py-3" placeholder="Search here...">
+                            </div>
+                            <div class="col-md-4">
+                                <!--select box-->
+                                <select class="form-select border-0 py-3">
+                                    <option value="1">Lười lần 1</option>
+                                    <option value="2">Lười lần 2</option>
+                                    <option value="3">Lười lần 3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <!--select box-->
+                                <select class="form-select border-0 py-3">
+                                    <option value="1">Địa điểm 1</option>
+                                    <option value="2">Địa điểm 2</option>
+                                    <option value="3">Địa điểm 3</option>
+                                </select>
+                            </div>                         
+                        </div>
+                    </div>
+                    <!--button-->
+                    <div class="col-md-2">
+                        <button class="btn btn-dark border-0 w-100 py-3">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------- Category Start ------->
+        <div class="container-xl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeIn" style="max-width: 600px;">
+                    <h1 class="mb-3">Property Types</h1>
+                    <p>T lười viết nội dung ở đây quá. Mốt làm tới cái website này thì tự sửa nội dung cho nó phù hợp đi nghen !
+                        Ai rảnh đâu mà vừa làm vừa viết ở đây nữa
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeIn">
+                        <div class="cat-item d-block text-center rounded p-3" style="background: var(--linear-color);">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <!-- image -->
+                                    <img class="img-fluid" src="../assets/img/icon-apartment.png" alt="">
+                                </div>
+                                <h6>Apartment</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeIn">
+                        <div class="cat-item d-block text-center rounded p-3" style="background: var(--linear-color);">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <!-- image -->
+                                    <img class="img-fluid" src="../assets/img/icon-villa.png" alt="">
+                                </div>
+                                <h6>Villa</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeIn">
+                        <div class="cat-item d-block text-center rounded p-3" style="background: var(--linear-color);">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <!-- image -->
+                                    <img class="img-fluid" src="../assets/img/icon-house.png" alt="">
+                                </div>
+                                <h6>House</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeIn">
+                        <div class="cat-item d-block text-center rounded p-3" style="background: var(--linear-color);">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <!-- image -->
+                                    <img class="img-fluid" src="../assets/img/icon-building.png" alt="">
+                                </div>
+                                <h6>Building</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeIn">
+                        <div class="cat-item d-block text-center rounded p-3" style="background: var(--linear-color);">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <!-- image -->
+                                    <img class="img-fluid" src="../assets/img/icon-neighborhood.png" alt="">
+                                </div>
+                                <h6>Neighborhood</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeIn">
+                        <div class="cat-item d-block text-center rounded p-3" style="background: var(--linear-color);">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <!-- image -->
+                                    <img class="img-fluid" src="../assets/img/icon-condominium.png" alt="">
+                                </div>
+                                <h6>Condominium</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeIn">
+                        <div class="cat-item d-block text-center rounded p-3" style="background: var(--linear-color);">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <!-- image -->
+                                    <img class="img-fluid" src="../assets/img/icon-luxury.png" alt="">
+                                </div>
+                                <h6>Luxury</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeIn">
+                        <div class="cat-item d-block text-center rounded p-3" style="background: var(--linear-color);">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <!-- image -->
+                                    <img class="img-fluid" src="../assets/img/icon-apartment.png" alt="">
+                                </div>
+                                <h6>Apartment</h6>
+                                <span>123 Properties</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------- About Section ------->
+        <div class="container-xl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn">
+                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                            <img src="../assets/img/about.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 fadeOut">
+                        <h1 class="mb-4">#1 Place To Find The Perfect Property</h1>
+                        <p class="mb-4">T lười viết nội dung ở đây quá. Mốt làm tới cái website này thì tự sửa nội dung cho nó phù hợp đi nghen !
+                            Ai rảnh đâu mà vừa làm vừa viết ở đây nữa
+                        </p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Khi nào đóng tiền học <i class="fa-regular fa-face-angry"></i></p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Khi nào đóng tiền học <i class="fa-regular fa-face-angry"></i></p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Khi nào đóng tiền học <i class="fa-regular fa-face-angry"></i></p>
+                        <button class="btn btn-primary py-3 px-5 mt-3">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------- Property List ------->
+        <div class="container-xl py-5">
+            <div class="container">
+                <div class="row g-0 gx-5 align-items-end">
+                    <div class="col-lg-6">
+                        <div class="text-start mx-auto mb-5 wow slideInLeft">
+                            <h1 class="mb-3">Property Listing</h1>
+                            <p>T lười viết nội dung ở đây quá. Mốt làm tới cái website này thì tự sửa nội dung cho nó phù hợp đi nghen !
+                                Ai rảnh đâu mà vừa làm vừa viết ở đây nữa
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-start text-lg-end wow slideInRight">
+                        <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                            <li class="nav-item me-2">
+                                <button href="#tab-1" class="btn btn-outline-primary active" data-bs-toggle="pill">Featured</button>
+                            </li>
+                            <li class="nav-item me-2">
+                                <button href="#tab-2" class="btn btn-outline-primary" data-bs-toggle="pill">For Sell</button>
+                            </li><li class="nav-item me-2">
+                                <button href="#tab-3" class="btn btn-outline-primary" data-bs-toggle="pill">For Rent</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--tab content-->
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-name fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-4 col-md-6 wow fadeOut">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <img src="../assets/img/property-1.jpg" alt="" class="img-fluid">
+                                            <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+                                            <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Apparment</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">123.000 <sup>vnđ</sup></h5>
+                                            <p class="d-block h5 mb-2">Golden Urban House For Sell</p>
+                                            <p><i class="fa fa-map-marked-alt text-primary me-2"></i>12 Đường số 1, Hải Phòng, Vietnam</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 wow fadeOut">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <img src="../assets/img/property-2.jpg" alt="" class="img-fluid">
+                                            <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+                                            <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Apparment</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">123.000 <sup>vnđ</sup></h5>
+                                            <p class="d-block h5 mb-2">Golden Urban House For Sell</p>
+                                            <p><i class="fa fa-map-marked-alt text-primary me-2"></i>12 Đường số 1, Hải Phòng, Vietnam</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 wow fadeOut">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <img src="../assets/img/property-3.jpg" alt="" class="img-fluid">
+                                            <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+                                            <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Apparment</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">123.000 <sup>vnđ</sup></h5>
+                                            <p class="d-block h5 mb-2">Golden Urban House For Sell</p>
+                                            <p><i class="fa fa-map-marked-alt text-primary me-2"></i>12 Đường số 1, Hải Phòng, Vietnam</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 wow fadeOut">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <img src="../assets/img/property-4.jpg" alt="" class="img-fluid">
+                                            <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+                                            <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Apparment</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">123.000 <sup>vnđ</sup></h5>
+                                            <p class="d-block h5 mb-2">Golden Urban House For Sell</p>
+                                            <p><i class="fa fa-map-marked-alt text-primary me-2"></i>12 Đường số 1, Hải Phòng, Vietnam</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 wow fadeOut">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <img src="../assets/img/property-5.jpg" alt="" class="img-fluid">
+                                            <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+                                            <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Apparment</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">123.000 <sup>vnđ</sup></h5>
+                                            <p class="d-block h5 mb-2">Golden Urban House For Sell</p>
+                                            <p><i class="fa fa-map-marked-alt text-primary me-2"></i>12 Đường số 1, Hải Phòng, Vietnam</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 wow fadeOut">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <img src="../assets/img/property-6.jpg" alt="" class="img-fluid">
+                                            <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+                                            <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Apparment</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">123.000 <sup>vnđ</sup></h5>
+                                            <p class="d-block h5 mb-2">Golden Urban House For Sell</p>
+                                            <p><i class="fa fa-map-marked-alt text-primary me-2"></i>12 Đường số 1, Hải Phòng, Vietnam</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------- Call To Action Section ------->
+        <div class="container-xl py-5">
+            <div class="container">
+                <div class="bg-white rounded p-3">
+                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, 0.3);">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-6 wow fadeOut">
+                                <img src="../assets/img/call-to-action.jpg" alt="" class="img-fluid rounded w-100">
+                            </div>
+                            <div class="col-lg-6 wow fadeOut">
+                                <div class="mb-4">
+                                    <h1 class="mb-3">Contact With Our Certified Agent</h1>
+                                    <p>T lười viết nội dung ở đây quá. Mốt làm tới cái website này thì tự sửa nội dung cho nó phù hợp đi nghen !
+                                        Ai rảnh đâu mà vừa làm vừa viết ở đây nữa
+                                    </p>
+                                </div>
+                                <button class="btn btn-primary px-4 py-3 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</button>
+                                <button class="btn btn-primary px-4 py-3 me-2 btn-mobile"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</button>                           
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------- Our Team Section ------->
+        <div class="container-xl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 fadeOut" style="max-width: 600px;">
+                    <h1 class="mb-3">Property Agents</h1>
+                    <p>T lười viết nội dung ở đây quá. Mốt làm tới cái website này thì tự sửa nội dung cho nó phù hợp đi nghen !
+                        Ai rảnh đâu mà vừa làm vừa viết ở đây nữa
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeOut">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img src="../assets/img/team-1.jpg" alt="" class="img-fluid">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <button class="btn btn-info mx-1"><i class="fab fa-facebook-f"></i></button>
+                                    <button class="btn btn-info mx-1"><i class="fab fa-twitter"></i></button>
+                                    <button class="btn btn-info mx-1"><i class="fab fa-instagram"></i></button>
+                                </div>
+                            </div>
+                            <!--Information-->
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <small>Desigantion</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeOut">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img src="../assets/img/team-2.jpg" alt="" class="img-fluid">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <button class="btn btn-info mx-1"><i class="fab fa-facebook-f"></i></button>
+                                    <button class="btn btn-info mx-1"><i class="fab fa-twitter"></i></button>
+                                    <button class="btn btn-info mx-1"><i class="fab fa-instagram"></i></button>
+                                </div>
+                            </div>
+                            <!--Information-->
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <small>Desigantion</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeOut">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img src="../assets/img/team-3.jpg" alt="" class="img-fluid">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <button class="btn btn-info mx-1"><i class="fab fa-facebook-f"></i></button>
+                                    <button class="btn btn-info mx-1"><i class="fab fa-twitter"></i></button>
+                                    <button class="btn btn-info mx-1"><i class="fab fa-instagram"></i></button>
+                                </div>
+                            </div>
+                            <!--Information-->
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <small>Desigantion</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeOut">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img src="../assets/img/team-4.jpg" alt="" class="img-fluid">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <button class="btn btn-info mx-1"><i class="fab fa-facebook-f"></i></button>
+                                    <button class="btn btn-info mx-1"><i class="fab fa-twitter"></i></button>
+                                    <button class="btn btn-info mx-1"><i class="fab fa-instagram"></i></button>
+                                </div>
+                            </div>
+                            <!--Information-->
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <small>Desigantion</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------- Testimonial Start ------->
+        <div class="container-xl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeOut" style="max-width: 600px;">
+                    <h1 class="mb-3">Our Clients Say!</h1>
+                    <p>T lười viết nội dung ở đây quá. Mốt làm tới cái website này thì tự sửa nội dung cho nó phù hợp đi nghen !
+                        Ai rảnh đâu mà vừa làm vừa viết ở đây nữa
+                    </p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeOut">
+                    <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <p>T lười viết nội dung ở đây quá. Mốt làm tới cái website này thì tự sửa nội dung cho nó phù hợp đi nghen !
+                                Ai rảnh đâu mà vừa làm vừa viết ở đây nữa
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img src="../assets/img/testimonial-1.jpg" alt="" class="img-fluid flex-shrink-0 rounded" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Client Name</h6>
+                                    <small>Profession</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <p>T lười viết nội dung ở đây quá. Mốt làm tới cái website này thì tự sửa nội dung cho nó phù hợp đi nghen !
+                                Ai rảnh đâu mà vừa làm vừa viết ở đây nữa
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img src="../assets/img/testimonial-2.jpg" alt="" class="img-fluid flex-shrink-0 rounded" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Client Name</h6>
+                                    <small>Profession</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <p>T lười viết nội dung ở đây quá. Mốt làm tới cái website này thì tự sửa nội dung cho nó phù hợp đi nghen !
+                                Ai rảnh đâu mà vừa làm vừa viết ở đây nữa
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img src="../assets/img/testimonial-3.jpg" alt="" class="img-fluid flex-shrink-0 rounded" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Client Name</h6>
+                                    <small>Profession</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <p>T lười viết nội dung ở đây quá. Mốt làm tới cái website này thì tự sửa nội dung cho nó phù hợp đi nghen !
+                                Ai rảnh đâu mà vừa làm vừa viết ở đây nữa
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img src="../assets/img/testimonial-4.jpg" alt="" class="img-fluid flex-shrink-0 rounded" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Client Name</h6>
+                                    <small>Profession</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------- Footer Section ------->
+        <footer class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeOut">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white g-md-4">Get In Touch</h5>
+                        <p class="mb-2"><i class="fa fa-map-marked-alt me-3"></i>123 Đường số 1, Hải Phòng, Vietnam</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+84 123456789</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>trangland@gmail.com</p>
+                        
+                        <div class="d-flex pt-2">
+                            <button class="btn btn-outline-light btn-social"><i class="fab fa-twitter"></i></button>
+                            <button class="btn btn-outline-light btn-social"><i class="fab fa-facebook"></i></button>
+                            <button class="btn btn-outline-light btn-social"><i class="fab fa-youtube"></i></button>
+                            <button class="btn btn-outline-light btn-social"><i class="fab fa-linkedin"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white g-md-4">Quick Links</h5>
+                        <button class="btn btn-link text-white-50">About Us</button>
+                        <button class="btn btn-link text-white-50">Contact Us</button>               
+                        <button class="btn btn-link text-white-50">Our Services</button>               
+                        <button class="btn btn-link text-white-50">Privacy Policy</button>  
+                        <button class="btn btn-link text-white-50">Terms & Condition</button>               
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white g-md-4">Photo Gallery</h5>
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img src="../assets/img/property-1.jpg" alt="" class="img-fluid rounded bg-light p-1">
+                            </div>
+                            <div class="col-4">
+                                <img src="../assets/img/property-2.jpg" alt="" class="img-fluid rounded bg-light p-1">
+                            </div><div class="col-4">
+                                <img src="../assets/img/property-3.jpg" alt="" class="img-fluid rounded bg-light p-1">
+                            </div><div class="col-4">
+                                <img src="../assets/img/property-4.jpg" alt="" class="img-fluid rounded bg-light p-1">
+                            </div><div class="col-4">
+                                <img src="../assets/img/property-5.jpg" alt="" class="img-fluid rounded bg-light p-1">
+                            </div><div class="col-4">
+                                <img src="../assets/img/property-6.jpg" alt="" class="img-fluid rounded bg-light p-1">
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Newsletter</h5>
+                        <p>Ước khi đọc đến dòng này bé Hối donate giùm, chứ lười quá rồi. Không cánh gà nướng thì cũng phở.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input type="text" class="form-control bg-transparent w-100 py-3 pe-5 ps-4" placeholder="Your email">
+                            <button class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2" type="button">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-12 text-center text-md-start mb-3 mb-md-0">
+                            <p class="text-center">
+                                <span style="color: var(--secondary-color);">TrangLand</span> || All Right By Tien © 10/2022
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Owl carousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Custom JS-->
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

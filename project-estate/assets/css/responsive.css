@@ -1,0 +1,40 @@
+@media (min-width: 992px){
+    .header{
+        margin-top: -120px;
+    }
+}
+
+@media (max-width: 992px){
+    .nav-bar{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar .nav-link{
+        margin-right: 0;
+        padding: 10px 0;
+    }
+    .navbar-nav{
+        border-top: 1px solid #eeeeee;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar-light .navbar-nav .nav-link{
+        margin: 0;
+    }
+    .navbar-light .navbar-nav .nav-link:last-child{
+        margin: 10px 0;
+    }
+    .header-carousel .owl-nav{
+        left: 25px;
+    }
+    .btn-mobile{
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 576px){
+    .testimonial-carousel{
+        padding: 0 4rem;
+    }
+}

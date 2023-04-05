@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none !important;
+    transition: all 1s linear;
+}
+:root{
+    --primary-color: rgb(26, 148, 255);
+    --secondary-color: #ff6922;
+    --third-color: #8affad;
+    --fourth-color: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
+    --fifth-color: linear-gradient(120deg, #e0f7ff, #dffff4);
+    --light-color: #effdf5;
+    --dark-color: #0e2e50;
+    --white-color: #ffffff;
+    --linear-color: #d3e6ff;
+}
+body{
+    background: #fff;
+}
+a{
+    color: #000 !important;
+}
+.btn{
+    transition: 0.5s;
+}
+.btn.btn-primary,
+.btn.btn-secondary{
+    color: var(--white-color);
+}
